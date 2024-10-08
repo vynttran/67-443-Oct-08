@@ -38,7 +38,7 @@ var femaleOfficers: [String] = ["kira", "dax", "tpol", "janeway", "troi", "seven
 First, a set of warm-up problems for everyone
 */
 // Q0: How many human officers are there?
-let numberOfHumanOfficers = humanOfficers.count
+let numberOfHumanOfficers = humanOfficers.count // can use reduce
 
 // Q1: What percentage of humans are female?
 let humanFemaleOfficers = humanOfficers.filter { femaleOfficers.contains($0) }
